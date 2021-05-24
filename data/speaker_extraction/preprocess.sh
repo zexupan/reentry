@@ -15,8 +15,6 @@ min_length=4 # minimum length of audio
 
 audio_data_direc=${direc}audio_clean/ # Target audio saved directory
 mixture_audio_direc=${direc}audio_mixture/${C}_mix_min_800/ # Audio mixture saved directory
-visual_frame_direc=${direc}face/ # The visual saved directory
-lip_embedding_direc=${direc}lip/ # The lip embedding saved directory
 
 # # stage 1: Remove repeated datas in pretrain and train set, extract audio from mp4, create mixture list
 # echo 'stage 1: create mixture list'
