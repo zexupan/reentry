@@ -1,6 +1,6 @@
 ## reentry
 
-A PyTorch implementation of the [Title](link)
+A PyTorch implementation of the [Selective Hearing through Lip-reading](link)
 
 ## Project Structure
 
@@ -11,4 +11,6 @@ A PyTorch implementation of the [Title](link)
 `/SLSyn`: The training scripts of the SLSyn network
 
 `/reentry`: The training scripts of the reentry model
+
+We will release the code upon the accepance of the paper.
 
