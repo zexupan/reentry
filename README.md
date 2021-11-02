@@ -1,6 +1,6 @@
-## reentry
+## The Reentry model
 
-A PyTorch implementation of the [Selective Hearing through Lip-reading](link)
+A PyTorch implementation of the [Selective Listening by Synchronizing Speech with Lips](https://arxiv.org/abs/2106.07150)
 
 ## Project Structure
 
