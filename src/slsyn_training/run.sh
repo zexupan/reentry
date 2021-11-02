@@ -6,6 +6,7 @@ continue_from=
 
 if [ -z ${continue_from} ]; then
 	log_name='avConv_'$(date '+%Y-%m-%d(%H:%M:%S)')
+	mkdir logs
 	mkdir logs/$log_name
 else
 	log_name=${continue_from}
