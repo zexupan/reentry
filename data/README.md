@@ -12,6 +12,6 @@ Please prepare the dataset in the following file structure
 
 	voxceleb2
 	  └── orig
-	    |── train
-	    └── test
+	    |── train     	# The original train set contains .mp4 video
+	    └── test		# The original test set contains .mp4 video	
 
