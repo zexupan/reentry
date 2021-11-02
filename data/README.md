@@ -10,6 +10,6 @@
 
 
 	voxceleb2
-		└── orig
-			|── train
-			└── test
+	  └── orig
+	    |── train
+		└── test
