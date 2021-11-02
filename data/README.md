@@ -8,7 +8,7 @@
 
 ## Dataset File Structure
 
-
+.
 ├── voxceleb2
 │   ├── orig
 │   │   ├── train
