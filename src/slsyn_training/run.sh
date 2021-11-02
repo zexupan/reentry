@@ -20,9 +20,9 @@ main.py \
 \
 --log_name $log_name \
 \
---audio_direc '/home/panzexu/datasets/voxceleb2/audio_sync/huge/' \
+--audio_direc '/home/panzexu/datasets/voxceleb2/audio_sync/' \
 --visual_direc '/home/panzexu/datasets/voxceleb2/orig/' \
---mix_lst_path '/home/panzexu/datasets/voxceleb2/audio_sync/huge/sync_list.csv' \
+--mix_lst_path '/home/panzexu/datasets/voxceleb2/audio_sync/sync_list.csv' \
 --epochs 200 \
 --num_workers 8 \
 \

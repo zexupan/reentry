@@ -1,7 +1,6 @@
 ## Usage
 
-Run: bash preprocess.sh
-
+`preprocess.sh`: Scripts to start processing data
 
 ## Generated dataset file structure
 
