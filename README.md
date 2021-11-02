@@ -6,11 +6,10 @@ A PyTorch implementation of the [Selective Listening by Synchronizing Speech wit
 
 `/data`: Scripts to pre-process the voxceleb2 dataset.
 
-`/SLSyn`: The pre-trained SLSyn network.
+`/pretrained_slsyn`: The pre-trained SLSyn network to extract embeddings.
 
-`/reentry`: The training scripts of the reentry model.
+`/src`: The training scripts of the slsyn network and the reentry model.
 
-We will release the code upon the accepance of the paper.
 
 
 ## Pretrained weights

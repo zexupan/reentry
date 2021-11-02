@@ -23,7 +23,7 @@ class dataset(data.Dataset):
         self.sampling_rate = sampling_rate
 
         self.mix_lst=open(mix_lst_path).read().splitlines()
-        self.mix_lst=list(filter(lambda x: x.split(',')[0]==partition, self.mix_lst))
+        # self.mix_lst=list(filter(lambda x: x.split(',')[0]==partition, self.mix_lst))
 
     def __getitem__(self, index):
         line = self.mix_lst[index]
@@ -108,7 +108,7 @@ def main(args):
             out = out.squeeze(0).cpu().numpy().T
             # print(out.shape)
 
-            save_path = "/home/panzexu/datasets/voxceleb2/visual_embedding/sync/eval/sync_av/" + fname[0] +'.npy'
+            save_path = "/home/panzexu/datasets/voxceleb2/visual_embedding/sync/sync_av/" + fname[0] +'.npy'
 
             if not os.path.exists(save_path.rsplit('/', 1)[0]):
                 os.makedirs(save_path.rsplit('/', 1)[0])
