@@ -8,10 +8,8 @@
 
 ## Dataset File Structure
 
-`/voxceleb2`
 
-	`/orig`
-
-		`/Train`
-
-		`/Test`
+├── voxceleb2
+│   ├── orig
+│   │   ├── train
+│   │   └── test
