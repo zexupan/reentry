@@ -8,8 +8,10 @@
 
 ## Dataset File Structure
 
+Please prepare the dataset in the following file structure
 
 	voxceleb2
 	  └── orig
 	    |── train
 	    └── test
+
