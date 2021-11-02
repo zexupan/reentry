@@ -4,7 +4,7 @@ A PyTorch implementation of the [Selective Hearing through Lip-reading](link)
 
 ## Project Structure
 
-`/data`: Scripts to pre-process voxceleb2 dataset.
+`/data`: Scripts to pre-process the voxceleb2 dataset.
 
 `/pretrain_networks`: The pre-trained SLSyn network.
 

@@ -15,17 +15,17 @@ max_length=4 # minimum length of audio
 audio_data_direc=${direc}audio_clean/ # Target audio saved directory
 sync_audio_direc=${direc}audio_sync/ # Audio mixture saved directory
 
-# stage 1: Remove repeated datas in pretrain and train set, extract audio from mp4, create mixture list
-# echo 'stage 1: create mixture list'
-# python 1_create_list.py \
-# --data_direc $data_direc \
-# --mix_db $mix_db \
-# --train_samples $train_samples \
-# --test_samples $test_samples \
-# --audio_data_direc $audio_data_direc \
-# --min_length $min_length \
-# --max_length $max_length \
-# --sampling_rate $sampling_rate \
-# --sync_list $sync_list \
-# --sync_audio_direc $sync_audio_direc \
+stage 1: Remove repeated datas in pretrain and train set, extract audio from mp4, create mixture list
+echo 'stage 1: create mixture list'
+python 1_create_list.py \
+--data_direc $data_direc \
+--mix_db $mix_db \
+--train_samples $train_samples \
+--test_samples $test_samples \
+--audio_data_direc $audio_data_direc \
+--min_length $min_length \
+--max_length $max_length \
+--sampling_rate $sampling_rate \
+--sync_list $sync_list \
+--sync_audio_direc $sync_audio_direc \
 

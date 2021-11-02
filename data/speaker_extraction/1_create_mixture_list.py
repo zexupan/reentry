@@ -179,7 +179,7 @@ def main(args):
 	f.close()
 
 if __name__ == '__main__':
-	parser = argparse.ArgumentParser(description='LRS2 dataset')
+	parser = argparse.ArgumentParser(description='Voxceleb2 dataset')
 	parser.add_argument('--data_direc', type=str)
 	parser.add_argument('--C', type=int)
 	parser.add_argument('--mix_db', type=float)

@@ -16,24 +16,24 @@ min_length=4 # minimum length of audio
 audio_data_direc=${direc}audio_clean/ # Target audio saved directory
 mixture_audio_direc=${direc}audio_mixture/${C}_mix_min_800/ # Audio mixture saved directory
 
-# # stage 1: Remove repeated datas in pretrain and train set, extract audio from mp4, create mixture list
-# echo 'stage 1: create mixture list'
-# python 1_create_mixture_list.py \
-# --data_direc $data_direc \
-# --C $C \
-# --mix_db $mix_db \
-# --train_samples $train_samples \
-# --val_samples $val_samples \
-# --test_samples $test_samples \
-# --audio_data_direc $audio_data_direc \
-# --min_length $min_length \
-# --sampling_rate $sampling_rate \
-# --mixture_data_list $mixture_data_list \
+# stage 1: Remove repeated datas in pretrain and train set, extract audio from mp4, create mixture list
+echo 'stage 1: create mixture list'
+python 1_create_mixture_list.py \
+--data_direc $data_direc \
+--C $C \
+--mix_db $mix_db \
+--train_samples $train_samples \
+--val_samples $val_samples \
+--test_samples $test_samples \
+--audio_data_direc $audio_data_direc \
+--min_length $min_length \
+--sampling_rate $sampling_rate \
+--mixture_data_list $mixture_data_list \
 
-# # stage 2: create audio mixture from list
-# echo 'stage 2: create mixture audios'
-# python 2_create_mixture.py \
-# --C $C \
-# --audio_data_direc $audio_data_direc \
-# --mixture_audio_direc $mixture_audio_direc \
-# --mixture_data_list $mixture_data_list \
+# stage 2: create audio mixture from list
+echo 'stage 2: create mixture audios'
+python 2_create_mixture.py \
+--C $C \
+--audio_data_direc $audio_data_direc \
+--mixture_audio_direc $mixture_audio_direc \
+--mixture_data_list $mixture_data_list \

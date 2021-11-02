@@ -82,7 +82,7 @@ def main(args):
 
 
 if __name__ == '__main__':
-	parser = argparse.ArgumentParser(description='LRS2 dataset')
+	parser = argparse.ArgumentParser(description='Voxceleb2 dataset')
 	parser.add_argument('--C', type=int)
 	parser.add_argument('--audio_data_direc', type=str)
 	parser.add_argument('--mixture_audio_direc', type=str)
