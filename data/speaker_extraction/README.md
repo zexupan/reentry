@@ -15,7 +15,8 @@ Run: bash preprocess.sh
 	    |── train     	# The extrated train set contains .wav audio
 	    └── test		# The extrated test set contains .wav audio	
 	  └── audio_mixture
-	    └──2_mix_min_800 # The simulated 2 speaker mixture contatins .wav audio	
+	    |──mixture_data_list_2mix.csv 	# The list of the simulated speech mixtures
+	    └──2_mix_min_800 	# The simulated 2 speaker mixture contatins .wav audio	
 	      |── train
 	      |── val
 	      └── test
