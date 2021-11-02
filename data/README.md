@@ -8,11 +8,11 @@
 
 ## Dataset File Structure
 
-.
-├── voxceleb2
-│   ├── orig
-│   │   ├── train
-│   │   └── test
+	.
+	├── voxceleb2
+	│   ├── orig
+	│   │   ├── train
+	│   │   └── test
 
     .
     ├── ...
