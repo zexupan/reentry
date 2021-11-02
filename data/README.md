@@ -10,8 +10,8 @@
 
 `/voxceleb2`
 
-`	/orig`
+	`/orig`
 
-`		/Train`
+		`/Train`
 
-`		/Test`
+		`/Test`
