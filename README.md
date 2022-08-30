@@ -1,6 +1,6 @@
 ## The Reentry model
 
-A PyTorch implementation of the [Selective Listening by Synchronizing Speech with Lips](https://arxiv.org/abs/2106.07150)
+A PyTorch implementation of the [Selective Listening by Synchronizing Speech with Lips](https://ieeexplore.ieee.org/document/9721129)
 
 ## Project Structure
 
