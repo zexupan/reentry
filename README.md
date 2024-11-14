@@ -2,9 +2,9 @@
 
 A PyTorch implementation of the [Selective Listening by Synchronizing Speech with Lips](https://ieeexplore.ieee.org/document/9721129)
 
-# Update:
+## Update:
 * A new version of this code is scheduled to be released [here (ClearVoice repo)](https://github.com/modelscope/ClearVoice). 
-* The dataset can be found [here](https://huggingface.co/datasets/alibabasglab/KUL-mix).
+* The dataset can be found [here](https://huggingface.co/datasets/alibabasglab/VoxCeleb2-mix).
 
 
 ## Project Structure
